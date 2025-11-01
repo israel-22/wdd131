@@ -16,6 +16,161 @@ body {
 header {
      background-color:  #817905ea;
         color : white;
-        padding : 1.5rem ;
+        padding-top : 1.2rem ;
         text-align : center;
+        margin:0;
 }
+#course-title {
+    display:block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #706c6c;
+    width: 100%;
+    padding: 0.75rem 0;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+}
+nav a{
+    color : #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding:  0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #d6d6d6;
+    color:#000;
+    
+}
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    margin: 2rem auto;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap: 2rem;
+    padding: 1;
+    margin: 1;
+    width: 100vw;
+
+}
+
+h1{
+    grid-column: 1/ -1;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow:hidden;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+     width: 100%;
+  box-sizing: border-box;
+}
+
+.card h2{
+    background-color:  #817905ea;
+    color :white;
+    margin: 0;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid #d9c34b;
+}
+
+
+.card .text{
+    flex:1;
+    text-align: left;
+}
+
+
+.card img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+ 
+    .card img{
+        max-width: 20%;
+    }
+
+.about, .country{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+    .flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+.flag img {
+  max-width: 250px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.flag figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
+.divider{
+    border: 0;
+    height: 2px;
+    background-color: #817905ea;
+    margin: 0.5 rem 0 1rem;
+}
+  
+
+@media(max-width: 900px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    .about, .country{
+        flex-direction: column;
+        text-align: center;
+}}
+footer {
+  background-color: #817905ea;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  margin-top: auto;
+  border-top: 4px solid #e0e0e0;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}
+
+

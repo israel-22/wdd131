@@ -3,16 +3,16 @@
   <head>
     <!-- metadata -->
     <meta charset="UTF-8" />
-    <title>Israel Santos | WDD 131</title>
-    <meta name="description" content="it is my personal website" />
-    <meta name="author" content="Santos Israel" />
+    <meta name="description" content="It is my personal website" />
+    <meta name="author" content="Israel Santos" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 131: Dinamic Web Fundamentals - Israel Santos</title>
+    <title>WDD 131: Dynamic Web Fundamentals - Israel Santos</title>
 
-    <!-- links to the style sheet and script file --->
+    <!-- links to the style sheet and script file -->
     <link rel="stylesheet" href="styles/base.css" />
-    <script src="script/script.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
   </head>
+
   <body>
     <header>
       <span id="course-title">
@@ -30,9 +30,11 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="card " style="width: 90%;">
+        <div class=" about">
+          <div class="text">
         <h2>About Me</h2>
-        <img src="" alt="" />
+       
         <p>
           Hello! My name is Israel Santos, i'm a student at BYU-Idaho studying
           Web Development and Design. I have always been interested in
@@ -42,8 +44,20 @@
           learn more about web development and design through this course and to
           apply my skills in real-world projects.
         </p>
-        <h2>Quito Ecuador</h2>
-        <img src="" alt="" />
+        </div>
+        <img src="/images/personal.jpeg">
+        </div>
+        
+        <div class="country">
+          <figure class="flag">
+            <img src="/images/bandera-nacional.jpeg" />
+            <figcaption>Ecuador National Flag</figcaption>
+          </figure>
+            
+          <div class="text">
+        <h2>Quito-Ecuador</h2>
+        <hr class="divider"/>
+        
         <p>
           I'm originally from Ecuador, a beautiful country located in South
           America. Ecuador is known for its diverse culture, stunning
@@ -52,9 +66,11 @@
           for everyone. I'm proud to call Ecuador my home and to share its
           beauty with others.
         </p>
+        </div>
+        </div>
       </section>
 
-      <section>
+      <section class="card">
         <h2>Web Dev Recources</h2>
 
         <p>
@@ -94,6 +110,7 @@
         </ul>
       </section>
     </main>
+
     <footer>
       <p>&copy; <span></span> [Israel Santos] - Ecuador</p>
       <p id="LastModified"></p>
