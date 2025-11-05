@@ -14,8 +14,8 @@ body {
 }
 
 header {
-     background-color:  #817905ea;
-        color : white;
+     background-color: #6b6404; 
+  color: #fff;
         padding-top : 1.2rem ;
         text-align : center;
         margin:0;
@@ -59,8 +59,8 @@ main {
     display:grid;
     grid-template-columns:2fr 1fr;
     gap: 2rem;
-    padding: 1;
-    margin: 1;
+    padding: 1rem;
+    margin: 1rem;
     width: 100vw;
 
 }
@@ -84,14 +84,14 @@ h1{
 }
 
 .card h2{
-    background-color:  #817905ea;
+    background-color: #6b6404;
     color :white;
     margin: 0;
     padding: 0.8rem;
     font-size: 1.2rem;
     text-align: center;
     letter-spacing: 0.5px;
-    border-bottom: 3px solid #d9c34b;
+    border-bottom: 3px solid #e6d04b;
 }
 
 
@@ -158,7 +158,7 @@ h1{
         text-align: center;
 }}
 footer {
-  background-color: #817905ea;
+  background-color: #6b6404;
   color: white;
   text-align: center;
   padding: 1rem;
