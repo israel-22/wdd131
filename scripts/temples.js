@@ -1,13 +1,15 @@
-// Footer dynamic info
-document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
-// Hamburger menu
+
 const menuButton = document.getElementById("menu-button");
 const navMenu = document.getElementById("nav-menu");
 
+const lastModified = document.lastModified;
+document.getElementById("lastModified").textContent = `Last modification: ${lastModified}`;
+
 menuButton.addEventListener("click", () => {
   navMenu.classList.toggle("active");
-  // Toggle between ☰ and X
   menuButton.textContent = menuButton.textContent === "☰" ? "✖" : "☰";
 });
