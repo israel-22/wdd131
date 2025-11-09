@@ -10,7 +10,7 @@
 
     <!-- links to the style sheet and script file -->
     <link rel="stylesheet" href="styles/base.css" />
-    <script src="scripts/getdates.js" defer></script>
+    
   </head>
 
   <body>
@@ -18,7 +18,8 @@
       <span id="course-title">
         WDD 131 : Dinamic Web Fundamentals - Israel Santos
       </span>
-      <nav>
+       <button id="menu-button" aria-label="Menu">☰</button>
+      <nav  id="nav-menu">
         <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
         <a href="https://byu.instructure.com" target="_blank"> Canvas</a>
         <a
@@ -110,10 +111,10 @@
         </ul>
       </section>
     </main>
-
-    <footer>
-      <p>&copy; <span id="currentYear"></span> [Israel Santos] - Ecuador</p>
-      <p id="LastModified"></p>
-    </footer>
+      <footer>
+      <p>&copy; <span id="currentYear"></span> |Temples Album|- [Israel Santos] - Ecuador</p>
+      <p id="lastModified"></p>
+    </footer> 
+    <script src="scripts/getdates.js" defer></script>
   </body>
 </html>
