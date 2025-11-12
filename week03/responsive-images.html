@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="It is my homework week03" />
+    <meta name="author" content="Israel Santos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131: Responsive Images - Israel Santos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/responsive-images.css" />
+  </head>
+<body>
+    <header>
+        <h1>Responsive Images Example</h1>
+        <p>Using the <code>&lt;picture&gt;</code> element and <code>srcset</code> for responsive design</p>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Temple of choice - Church of Jesus Christ of Latter-day Saints"  width="1500" height="750"/>
+            </picture>
+        </div>
+        <section>
+            <h2>About this Activity</h2>
+            <p> This page demonstrates how to use responsive images to improve performance and visual quality
+                on different screen sizes. The <strong>picture</strong> element allows the browser to select
+                the best image based on the device width.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy: 2025| WDD 131| [Israel Santos]</p>
+    </footer>
+</body>
+</html>
