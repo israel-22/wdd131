@@ -1,0 +1,41 @@
+/*center the content*/
+maiin{
+    max-width:500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* the images have  a center column*/
+
+img{
+    display:block;
+    width:400px;
+    height: 600px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+/*fade-in animation effect*/
+.fade-img{
+    animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        filter:brightness(0);
+    }
+    100%{
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    color: #444;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="It is a galeri of temples in the word"/>
+    <meta name="author" content="Israel Santos"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Temple Album  Refactored - Israel Santos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/filtered-temples.css">
+    <link rel="stylesheet" href="css/filtered-temples-large.css" media="screen and (min-width: 640px)">
+</head>
+<body>
+    <header>
+        <h1>Temples Album</h1>
+         <button id="menu-button" aria-label="Menu">☰</button>
+        <nav id="nav-menu">
+            <a href="#" id="home">Home</a>
+            <a href="#" id="old">Old</a>
+            <a href="#" id="new"> New</a>
+            <a href="#" id="large">Large</a>
+            <a href="#" id="small">Small</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <section class="gallery" id="gallery"></section>
+    </main>
+      <footer>
+      <p>&copy; <span id="currentYear"></span> |Temples Album|- [Israel Santos] - Ecuador</p>
+      <p id="lastModified"></p>
+    </footer> 
+  <script src="js/filtered-temples.js" defer></script>
+</body>
+
+</html>
