@@ -96,5 +96,48 @@ function renderTemples(list) {
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
 
-  //*Completar el resto del programa estoyu cansado es todo por hoy*/ */
+  list.forEach( t=>{
+    const figure = document.createElement("figure");
+
+    figure.innerHTML= `<img loading="lazy" src="${t.imageUrl}" alt=${t.templeName} >
+    <figcaption>
+    <h3>${t.templeName}</h3>
+    <p> <strong>Location:</strong> ${t.location}</p>   
+    <p> <strong>Dedication:</strong> ${t.dedicated}</p>  
+    <p> <strong>Area</strong> ${t.area}</p>  
+    `;
+
+    gallery.appendChild(figure);
+  });
+
+ 
 }
+
+renderTemples(temples);
+
+//filtering function
+
+document.getElementById("home").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent= "home";
+  renderTemples(temples);
+});
+
+document.getElementById("old").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent= "Old Temples";
+  renderTemples(temples.filter(t=>parseInt(t.dedicated)<1900));
+});
+
+document.getElementById("new").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent= "New Temples";
+  renderTemples(temples.filter(t=>parseInt(t.dedicated)>2000));
+});
+
+document.getElementById("large").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent= "Large Temples";
+  renderTemples(temples.filter(t=>t.area>90000));
+});
+
+document.getElementById("").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent= "";
+  renderTemples(temples.filter(t=>t.area<=10000));
+});
