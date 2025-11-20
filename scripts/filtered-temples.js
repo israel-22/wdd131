@@ -1,10 +1,9 @@
 
 document.getElementById("currentYear").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = document.lastModified;
 
+document.getElementById("lastModified").textContent =
+  `Last modification: ${document.lastModified}`;
 
-const lastModified = document.lastModified;
-document.getElementById("lastModified").textContent = `Last modification: ${lastModified}`;
 
 const menuButton = document.getElementById("menu-button");
 const navMenu = document.getElementById("nav-menu");
@@ -99,7 +98,7 @@ function renderTemples(list) {
   list.forEach( t=>{
     const figure = document.createElement("figure");
 
-    figure.innerHTML= `<img loading="lazy" src="${t.imageUrl}" alt=${t.templeName} >
+    figure.innerHTML= `<img loading="lazy" src="${t.imageUrl}" alt="${t.templeName}">
     <figcaption>
     <h3>${t.templeName}</h3>
     <p> <strong>Location:</strong> ${t.location}</p>   
@@ -137,7 +136,7 @@ document.getElementById("large").addEventListener("click", () => {
   renderTemples(temples.filter(t=>t.area>90000));
 });
 
-document.getElementById("").addEventListener("click", () => {
-  document.getElementById("current-filter").textContent= "";
-  renderTemples(temples.filter(t=>t.area<=10000));
+document.getElementById("small").addEventListener("click", () => {
+  document.getElementById("current-filter").textContent = "Small Temples";
+  renderTemples(temples.filter(t => t.area < 10000));
 });
