@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="W05 Assignment: Product Review Form Overview" />
+    <meta name="author" content="Israel Santos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WDD131: W05 Product Review Form Overview</title>
+    <link rel="stylesheet" href="styles/review.css"/>
+</head>
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <!--Product Name-->
+            <label form="products">Product Name</label>
+            <select id="product" name="product" required>
+                <option value="" disable selected> Select a Product...</option>
+            </select>
+            <!--Rating-->
+            <fieldset class="rating">
+                <legend>Overall Rating</legend>
+
+                <input type="radio" id="rate5" name="rating" value="5">
+                <label for="rate5">5</label>
+
+                <input type="radio" id="rate4" name="rating" value="4">
+                <label for="rate4">4</label>
+
+                <input type="radio" id="rate3" name="rating" value="3">
+                <label for="rate3">3</label>
+
+                <input type="radio" id="rate2" name="rating" value="2">
+                <label for="rate2">2</label>
+
+                <input type="radio" id="rate1" name="rating" value="1">
+                <label for="rate1">1</label>                                             
+            </fieldset>
+
+            <!--Installation Date-->
+            <label form="installation"> Installation Date</label>
+            <input type="date" id="installation" name="installation" required>
+
+            <!--Useful Features-->
+            <fieldset>
+                <legend>Useful Features</legend>
+                <label><input type="checkbox" name="features" value="durability">Durability</label>
+                <label><input type="checkbox" name="features" value="design">Desing</label>
+                <label><input type="checkbox" name="features" value="performance">Performance</label>
+                <label><input type="checkbox" name="features" value="price">Price</label>
+            </fieldset>
+
+        <!---Written Review-->
+        <label for="review">Written Review</label>
+        <textarea id="review" name="review"></textarea>
+       <!--UserName-->
+        <label for="username">Your Name (Optional)</label>
+        <input type="text" id="username" name="username" placeholder="Your Name">
+
+        <!--Submit Button-->
+        <input type="submit" value="Submit Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | WDD131: Product Review Form - [Israel Santos] - Ecuador</p>
+    </footer>
+   <script src="scripts/review.js"></script> 
+</body>
+</html>     
