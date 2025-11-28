@@ -1,10 +1,22 @@
-body {
-  font-family: Arial, sans-serif;
+/* Asegura que html y body ocupen toda la altura */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;          
+  flex-direction: column; 
+  min-height: 100vh;      
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header y footer */
 header, footer {
   background: #222;
   color: white;
@@ -12,12 +24,20 @@ header, footer {
   padding: 1rem;
 }
 
+
+footer {
+  margin-top: auto;
+}
+
+
 main {
   padding: 1.5rem;
   max-width: 600px;
   margin: auto;
+  flex: 1; 
 }
 
+/* Formulario */
 form {
   display: flex;
   flex-direction: column;
@@ -54,11 +74,15 @@ input[type="submit"]:hover {
 .rating label {
   font-size: 2rem;
   cursor: pointer;
+  
 }
+
 .rating input {
   display: none;
 }
+
 .rating label:hover,
 .rating input:checked ~ label {
-  color: gold;
+  color: rgb(255, 30, 0);
+  
 }
