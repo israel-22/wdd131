@@ -1,0 +1,240 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Jipijapa Ceviche",
+      "category": "Seafood",
+      "region": "Coast",
+      "description": "A traditional Manabí-style ceviche made with fish, a peanut-based sauce, and citrus flavors typical of the region.",
+      "image": "images/cebiche-jipijapa.jpg",
+      "ingredients": [
+        "Fresh fish (corvina or mahi-mahi)",
+        "Red onion",
+        "Ground peanuts",
+        "Lime juice",
+        "Cilantro",
+        "Achiote",
+        "Tomato",
+        "Salt and pepper"
+      ],
+      "steps": [
+        "Cook the fish in salted water.",
+        "Blend peanuts with achiote to create a creamy base.",
+        "Add chopped tomato and red onion.",
+        "Mix in the shredded fish.",
+        "Add lime juice, cilantro, and adjust seasoning."
+      ],
+      "tips": "Serve with plantain chips or patacones."
+    },
+    {
+      "id": 2,
+      "name": "Encebollado",
+      "category": "Soup",
+      "region": "Coast",
+      "description": "One of Ecuador’s most iconic dishes, made with albacore tuna, cassava, and a flavorful onion and tomato broth.",
+      "image": "images/encebollado.jpg",
+      "ingredients": [
+        "Fresh tuna or albacore",
+        "Cassava (yuca)",
+        "Red onion",
+        "Tomato",
+        "Cilantro",
+        "Cumin",
+        "Achiote",
+        "Lime juice"
+      ],
+      "steps": [
+        "Cook the tuna with cumin and salt.",
+        "Remove and shred the tuna.",
+        "Prepare a sauté of onion, tomato, and achiote.",
+        "Add the sauté to the broth together with cassava.",
+        "Serve with shredded tuna and pickled onions."
+      ],
+      "tips": "Usually served with plantain chips and avocado."
+    },
+    {
+      "id": 3,
+      "name": "Chicken Stew (Seco de Pollo)",
+      "category": "Main Dish",
+      "region": "Highlands",
+      "description": "A traditional Ecuadorian stew made with chicken cooked in a sauce of beer, naranjilla, and local spices.",
+      "image": "images/seco-pollo.jpg",
+      "ingredients": [
+        "Chicken",
+        "Beer",
+        "Naranjilla juice",
+        "Onion",
+        "Garlic",
+        "Achiote",
+        "Cumin",
+        "Cilantro"
+      ],
+      "steps": [
+        "Prepare a sauté with onion, garlic, and achiote.",
+        "Add the chicken pieces and brown them.",
+        "Pour in the beer and naranjilla.",
+        "Simmer until the chicken becomes tender.",
+        "Serve with rice and avocado."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Guatita",
+      "category": "Main Dish",
+      "region": "Coast",
+      "description": "A traditional Ecuadorian dish made with beef tripe cooked in a thick peanut sauce.",
+      "image": "images/guatita.jpg",
+      "ingredients": [
+        "Beef tripe",
+        "Potatoes",
+        "Ground peanuts",
+        "Onion",
+        "Garlic",
+        "Achiote",
+        "Cumin",
+        "Milk"
+      ],
+      "steps": [
+        "Cook the tripe until tender.",
+        "Prepare a sauté with onion, garlic, and achiote.",
+        "Add blended peanuts and milk.",
+        "Add diced potatoes.",
+        "Add chopped tripe and cook until thickened."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fritada",
+      "category": "Main Dish",
+      "region": "Highlands",
+      "description": "A classic Andean dish consisting of slow-cooked pork that browns in its own fat. Traditionally served with hominy and potatoes.",
+      "image": "images/fritada.jpg",
+      "ingredients": [
+        "Pork meat",
+        "Garlic",
+        "Onion",
+        "Cumin",
+        "Salt",
+        "Water"
+      ],
+      "steps": [
+        "Cook the pork with garlic, onion, cumin, and water.",
+        "Allow the water to evaporate so the pork browns in its fat.",
+        "Serve with hominy, potato patties, and salad."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fish in Coconut Sauce (Encocado)",
+      "category": "Seafood",
+      "region": "Coast",
+      "description": "A flavorful coastal dish consisting of fish cooked in a creamy coconut-based sauce.",
+      "image": "images/encocado.jpg",
+      "ingredients": [
+        "Fresh fish",
+        "Coconut milk",
+        "Onion",
+        "Garlic",
+        "Achiote",
+        "Bell pepper",
+        "Cilantro"
+      ],
+      "steps": [
+        "Prepare a sauté with onion, garlic, bell pepper, and achiote.",
+        "Add coconut milk and simmer.",
+        "Add the fish and cook gently until tender.",
+        "Add cilantro before serving."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Humitas",
+      "category": "Snack",
+      "region": "Highlands",
+      "description": "A steamed corn cake made from fresh ground corn, wrapped in corn husks. Can be sweet or savory.",
+      "image": "images/humitas.jpg",
+      "ingredients": [
+        "Fresh corn kernels",
+        "Fresh cheese",
+        "Milk",
+        "Egg",
+        "Butter",
+        "Sugar or salt"
+      ],
+      "steps": [
+        "Grind the corn with milk.",
+        "Add butter, egg, and cheese.",
+        "Place the mixture inside corn husks.",
+        "Steam until cooked."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Quimbolitos",
+      "category": "Snack",
+      "region": "Highlands",
+      "description": "Soft, sweet steamed cakes made with corn flour and wrapped in achira leaves.",
+      "image": "images/quimbolitos.jpg",
+      "ingredients": [
+        "Corn flour",
+        "Eggs",
+        "Milk",
+        "Butter",
+        "Sugar",
+        "Raisins"
+      ],
+      "steps": [
+        "Mix all ingredients into a smooth batter.",
+        "Spoon into achira leaves.",
+        "Steam until firm and fluffy."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Menestra",
+      "category": "Main Dish",
+      "region": "Coast",
+      "description": "A traditional Ecuadorian stew of lentils or beans served with rice and grilled meat.",
+      "image": "images/menestra.jpg",
+      "ingredients": [
+        "Lentils or beans",
+        "Onion",
+        "Tomato",
+        "Garlic",
+        "Achiote",
+        "Cumin",
+        "Cilantro"
+      ],
+      "steps": [
+        "Prepare a sauté with onion, tomato, and achiote.",
+        "Add cooked lentils or beans.",
+        "Season with cumin and cilantro.",
+        "Serve with rice and grilled meat."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Potato Soup (Locro de Papas)",
+      "category": "Soup",
+      "region": "Highlands",
+      "description": "A hearty potato soup made with cheese, milk, and served with avocado.",
+      "image": "images/locro-papas.jpg",
+      "ingredients": [
+        "Potatoes",
+        "Milk",
+        "Fresh cheese",
+        "Achiote",
+        "Onion",
+        "Garlic",
+        "Avocado"
+      ],
+      "steps": [
+        "Prepare a sauté with onion, garlic, and achiote.",
+        "Add diced potatoes and water.",
+        "Cook until the potatoes break down.",
+        "Add milk and cheese.",
+        "Serve with avocado slices."
+      ]
+    }
+  ]
+}
