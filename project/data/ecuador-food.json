@@ -6,7 +6,7 @@
       "category": "Seafood",
       "region": "Coast",
       "description": "A traditional Manabí-style ceviche made with fish, a peanut-based sauce, and citrus flavors typical of the region.",
-      "image": "images/cebiche-jipijapa.jpg",
+      "image": "images/cebiche-jipijapa.jpeg",
       "ingredients": [
         "Fresh fish (corvina or mahi-mahi)",
         "Red onion",
@@ -32,7 +32,7 @@
       "category": "Soup",
       "region": "Coast",
       "description": "One of Ecuador’s most iconic dishes, made with albacore tuna, cassava, and a flavorful onion and tomato broth.",
-      "image": "images/encebollado.jpg",
+      "image": "images/encebollado.jpeg",
       "ingredients": [
         "Fresh tuna or albacore",
         "Cassava (yuca)",
@@ -195,7 +195,7 @@
       "category": "Main Dish",
       "region": "Coast",
       "description": "A traditional Ecuadorian stew of lentils or beans served with rice and grilled meat.",
-      "image": "images/menestra.jpg",
+      "image": "images/menestra.png",
       "ingredients": [
         "Lentils or beans",
         "Onion",
@@ -235,6 +235,316 @@
         "Add milk and cheese.",
         "Serve with avocado slices."
       ]
-    }
+    },{
+  "id": 11,
+  "name": "Espumilla",
+  "category": "Dessert",
+  "region": "All Ecuador",
+  "description": "A traditional Ecuadorian whipped dessert made from guava pulp, egg whites, and sugar.",
+  "image": "images/espumilla.jpg",
+  "ingredients": [
+    "Guava pulp",
+    "Egg whites",
+    "Sugar",
+    "Lemon juice"
+  ],
+  "steps": [
+    "Whip the egg whites until stiff peaks form.",
+    "Add sugar gradually while beating.",
+    "Mix in guava pulp and lemon juice.",
+    "Serve in cones or cups."
+  ]
+},
+{
+  "id": 12,
+  "name": "Three Milk Cake (Torta de Tres Leches)",
+  "category": "Dessert",
+  "region": "All Ecuador",
+  "description": "A soft sponge cake soaked in a mixture of three milks and topped with whipped cream.",
+  "image": "images/tres-leches.jpg",
+  "ingredients": [
+    "Flour",
+    "Eggs",
+    "Sugar",
+    "Condensed milk",
+    "Evaporated milk",
+    "Heavy cream"
+  ],
+  "steps": [
+    "Bake a soft sponge cake.",
+    "Mix condensed milk, evaporated milk, and heavy cream.",
+    "Pierce the cake and soak it with the milk mixture.",
+    "Let it rest and top with whipped cream."
+  ]
+},
+{
+  "id": 13,
+  "name": "Fig Dessert with Cheese (Dulce de Higos con Queso)",
+  "category": "Dessert",
+  "region": "Highlands",
+  "description": "Sweet figs cooked in panela syrup and served with fresh cheese.",
+  "image": "images/dulce-higos.jpg",
+  "ingredients": [
+    "Figs",
+    "Panela",
+    "Cinnamon",
+    "Fresh cheese"
+  ],
+  "steps": [
+    "Peel the figs and soak them in water overnight.",
+    "Cook them with panela and cinnamon.",
+    "Reduce the syrup until thick.",
+    "Serve with slices of fresh cheese."
+  ]
+},
+{
+  "id": 14,
+  "name": "Rice Pudding (Arroz con Leche)",
+  "category": "Dessert",
+  "region": "All Ecuador",
+  "description": "A classic Ecuadorian dessert made from rice, milk, cinnamon, and sugar.",
+  "image": "images/arroz-leche.jpg",
+  "ingredients": [
+    "Rice",
+    "Milk",
+    "Sugar",
+    "Cinnamon"
+  ],
+  "steps": [
+    "Cook the rice with water and cinnamon.",
+    "Add milk and sugar.",
+    "Simmer until creamy.",
+    "Serve warm or cold."
+  ]
+},
+{
+  "id": 15,
+  "name": "Paila Ice Cream (Helado de Paila)",
+  "category": "Dessert",
+  "region": "Imbabura",
+  "description": "Traditional Ecuadorian hand-churned ice cream made in a bronze pan over ice.",
+  "image": "images/helado-paila.jpg",
+  "ingredients": [
+    "Fruit pulp",
+    "Sugar",
+    "Ice"
+  ],
+  "steps": [
+    "Place crushed ice and salt under the bronze bowl.",
+    "Pour fruit pulp with sugar inside the bowl.",
+    "Scrape and spin until it freezes.",
+    "Serve immediately."
+  ]
+},
+{
+  "id": 16,
+  "name": "Chocolate Volcano (Ambateño Chocolate)",
+  "category": "Dessert",
+  "region": "Tungurahua",
+  "description": "A molten chocolate cake made with rich Ecuadorian cocoa.",
+  "image": "images/chocolate-volcano.jpg",
+  "ingredients": [
+    "Dark chocolate",
+    "Cocoa powder",
+    "Butter",
+    "Eggs",
+    "Sugar",
+    "Flour"
+  ],
+  "steps": [
+    "Melt chocolate with butter.",
+    "Mix with eggs, sugar, and flour.",
+    "Bake until the outside sets but the center remains molten.",
+    "Serve hot with ice cream."
+  ]
+},
+{
+  "id": 17,
+  "name": "Colada Morada",
+  "category": "Drink",
+  "region": "Highlands",
+  "description": "A traditional purple drink made with black corn flour, berries, and spices.",
+  "image": "images/colada-morada.jpg",
+  "ingredients": [
+    "Black corn flour",
+    "Mortiño berries",
+    "Strawberries",
+    "Pineapple",
+    "Cinnamon",
+    "Cloves"
+  ],
+  "steps": [
+    "Boil fruits with spices.",
+    "Add black corn flour dissolved in water.",
+    "Cook until thick.",
+    "Serve warm with guaguas de pan."
+  ]
+},
+{
+  "id": 18,
+  "name": "Non-Alcoholic Canelazo",
+  "category": "Drink",
+  "region": "Highlands",
+  "description": "A warm cinnamon and naranjilla drink without alcohol.",
+  "image": "images/canelazo.jpg",
+  "ingredients": [
+    "Cinnamon",
+    "Panela",
+    "Naranjilla juice",
+    "Water"
+  ],
+  "steps": [
+    "Boil cinnamon with water.",
+    "Add panela to dissolve.",
+    "Mix with naranjilla juice.",
+    "Serve hot."
+  ]
+},
+{
+  "id": 19,
+  "name": "Avena with Naranjilla",
+  "category": "Drink",
+  "region": "All Ecuador",
+  "description": "A refreshing oat drink blended with naranjilla.",
+  "image": "images/avena-naranjilla.jpg",
+  "ingredients": [
+    "Oats",
+    "Naranjilla",
+    "Sugar",
+    "Water"
+  ],
+  "steps": [
+    "Blend oats with water.",
+    "Strain and mix with naranjilla.",
+    "Add sugar to taste.",
+    "Serve cold."
+  ]
+},
+{
+  "id": 20,
+  "name": "Polaca Oat Drink",
+  "category": "Drink",
+  "region": "Highlands",
+  "description": "A warm oat drink flavored with cinnamon and sugar.",
+  "image": "images/avena-polaca.jpg",
+  "ingredients": [
+    "Oats",
+    "Milk",
+    "Sugar",
+    "Cinnamon"
+  ],
+  "steps": [
+    "Boil oats with milk.",
+    "Add sugar and cinnamon.",
+    "Simmer until thick.",
+    "Serve warm."
+  ]
+},
+{
+  "id": 21,
+  "name": "Ambato Hot Chocolate",
+  "category": "Drink",
+  "region": "Tungurahua",
+  "description": "A hot chocolate made with Ecuadorian cacao, often served with cheese.",
+  "image": "images/chocolate-ambateno.jpg",
+  "ingredients": [
+    "Cacao",
+    "Milk",
+    "Sugar",
+    "Cinnamon"
+  ],
+  "steps": [
+    "Boil milk with cinnamon.",
+    "Add cacao and sugar.",
+    "Whisk until smooth.",
+    "Serve hot with cheese or bread."
+  ]
+},
+{
+  "id": 22,
+  "name": "Morocho",
+  "category": "Drink",
+  "region": "Highlands",
+  "description": "A thick sweet drink made from morocho corn, milk, and spices.",
+  "image": "images/morocho.jpg",
+  "ingredients": [
+    "Morocho corn",
+    "Milk",
+    "Sugar",
+    "Cinnamon"
+  ],
+  "steps": [
+    "Cook morocho corn until soft.",
+    "Add milk and sugar.",
+    "Simmer until thick.",
+    "Serve warm."
+  ]
+},
+{
+  "id": 23,
+  "name": "Salt Juice (Jugo de Sal)",
+  "category": "Drink",
+  "region": "Chimborazo",
+  "description": "A warm savory drink made with beef broth and beaten eggs.",
+  "image": "images/jugo-sal.jpg",
+  "ingredients": [
+    "Beef broth",
+    "Egg",
+    "Salt",
+    "Pepper",
+    "Cumin"
+  ],
+  "steps": [
+    "Heat the beef broth.",
+    "Beat the egg and add slowly while stirring.",
+    "Season with salt, pepper, and cumin.",
+    "Serve hot."
+  ]
+},
+{
+  "id": 24,
+  "name": "Sal Prieta",
+  "category": "Side",
+  "region": "Manabí",
+  "description": "A traditional dry mix made from toasted corn flour, peanuts, and spices.",
+  "image": "images/sal-prieta.jpg",
+  "ingredients": [
+    "Toasted corn flour",
+    "Peanuts",
+    "Sesame seeds",
+    "Achiote"
+  ],
+  "steps": [
+    "Toast all ingredients separately.",
+    "Grind lightly.",
+    "Mix and store in a dry container.",
+    "Serve with plantains or cassava."
+  ]
+},
+{
+  "id": 25,
+  "name": "Cacao Mousse",
+  "category": "Dessert",
+  "region": "Amazon",
+  "description": "A chocolate mousse made with rich Ecuadorian cacao.",
+  "image": "images/cacao-mousse.jpg",
+  "ingredients": [
+    "Cacao paste",
+    "Cocoa powder",
+    "Cream",
+    "Sugar",
+    "Eggs"
+  ],
+  "steps": [
+    "Melt cacao paste with sugar.",
+    "Whip cream until soft peaks.",
+    "Mix melted cacao with whipped eggs.",
+    "Fold in whipped cream.",
+    "Chill before serving."
+  ]
+}
+
+
+
   ]
 }

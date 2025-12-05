@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="It is my final project" />
+    <meta name="author" content="Israel Santos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuatorian Cuisine | Recipes</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Ecuatorian Cuisine</h1>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./recipes.html" class="active">Recipes</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="page-title">Recipes Collection</h2>
+
+       <section class="filters">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="Soup">Soup</button>
+        <button class="filter-btn" data-category="Main Dish">Main Dish</button>
+        <button class="filter-btn" data-category="Dessert">Dessert</button> 
+        <button class="filter-btn" data-category="Drink">Drink</button> 
+       </section>
+
+        <section id="recipe-container" class="recipe-grid">
+            <!---JS dynamically insert recipe card here -->
+        </section>
+    </main>
+
+
+    <div id="recipe-modal" class="modal" aria-hidden="true">
+        <div class="modal-content" id="modal-content"></div>
+        <button id="close-modal" class="close-btn">Close</button>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Ecuatorian Cuisine - [Israel Santos] - Ecuador</p>
+        <p id="lastModified"></p>  
+        <a href="references.html">References</a>
+    </footer>
+    <script src="scripts/recipes.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    
+</body>
+</html>

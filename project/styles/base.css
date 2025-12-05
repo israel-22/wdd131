@@ -1,0 +1,61 @@
+/* ================================
+   BASE CSS — Ecuadorian Flavors
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Para que el footer siempre se quede abajo */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+:root {
+    --primary: #006F3C;      /* Ecuador green */
+    --secondary: #F2B705;    /* Golden yellow */
+    --background: #fffef5;   /* Warm neutral */
+    --text-dark: #333;
+    --max-width: 1100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--background);
+    color: var(--text-dark);
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--primary);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+}

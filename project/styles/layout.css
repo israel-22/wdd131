@@ -1,0 +1,96 @@
+/* ================================
+   LAYOUT CSS
+================================ */
+
+/* ------- NAVBAR ------- */
+.navbar {
+    background: white;
+    padding: 1rem;
+    border-bottom: 3px solid var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.nav-links a {
+    font-weight: 600;
+    color: var(--primary);
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    border-bottom: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+/* ------- HERO HOME ------- */
+.hero {
+    background: url('../images/hero-ecuador.jpg') center/cover no-repeat;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-weight: 300;
+}
+
+/* ------- RECIPE GRID ------- */
+.recipe-grid {
+    margin: 2rem 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+}
+
+/* tablets */
+@media (min-width: 600px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* desktop */
+@media (min-width: 900px) {
+    .recipe-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ------- FOOTER ------- */
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+    
+    
+}
+
+footer a {
+    color: var(--secondary);
+    font-weight: bold;
+}
