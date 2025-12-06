@@ -40,15 +40,38 @@
 
 /* ------- HERO HOME ------- */
 .hero {
-    background: url('../images/hero-ecuador.jpg') center/cover no-repeat;
-    padding: 4rem 1rem;
-    text-align: center;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    padding: 40px 20px;
     color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Watermark effect */
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1px);
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: auto;
 }
 
 .hero h2 {
-    font-size: 2.2rem;
-    text-shadow: 2px 2px 4px #000;
+    font-size: 2.4rem;                    /* Un poco más grande */
+    text-shadow: 2px 2px 6px #000;        /* Mejor contraste */
 }
 
 .hero p {
@@ -56,6 +79,39 @@
     margin: 1rem auto;
     font-weight: 300;
 }
+
+/* Missing height — fixed now */
+.hero-large {
+    min-height: 85vh;                      /* Ocupa casi toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* ------- HERO BUTTON ------- */
+.hero .btn-primary {
+    display: inline-block;
+    background-color: #ffcc00;      /* Amarillo brillante para destacar */
+    color: #222;                     /* Texto oscuro para buen contraste */
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;              /* Bordes redondeados */
+    text-decoration: none;           /* Quita subrayado */
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Sombra ligera */
+}
+
+.hero .btn-primary:hover {
+    background-color: #ffaa00;       /* Amarillo más intenso al hover */
+    color: #fff;                     /* Texto blanco al pasar mouse */
+    transform: translateY(-2px);     /* Levanta un poco el botón */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+
 
 /* ------- RECIPE GRID ------- */
 .recipe-grid {
@@ -85,7 +141,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5rem 1rem;
-    margin-top: 3rem;
+    margin-top: auto;
     
     
 }

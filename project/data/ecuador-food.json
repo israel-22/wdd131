@@ -3,10 +3,10 @@
     {
       "id": 1,
       "name": "Jipijapa Ceviche",
-      "category": "Seafood",
+      "category": "Soup",
       "region": "Coast",
       "description": "A traditional Manabí-style ceviche made with fish, a peanut-based sauce, and citrus flavors typical of the region.",
-      "image": "images/cebiche-jipijapa.jpeg",
+      "image": "images/cebiche-jipijapa.jpg",
       "ingredients": [
         "Fresh fish (corvina or mahi-mahi)",
         "Red onion",
@@ -126,7 +126,7 @@
     {
       "id": 6,
       "name": "Fish in Coconut Sauce (Encocado)",
-      "category": "Seafood",
+      "category": "Main Dish",
       "region": "Coast",
       "description": "A flavorful coastal dish consisting of fish cooked in a creamy coconut-based sauce.",
       "image": "images/encocado.jpg",
@@ -149,7 +149,7 @@
     {
       "id": 7,
       "name": "Humitas",
-      "category": "Snack",
+      "category": "Main Dish",
       "region": "Highlands",
       "description": "A steamed corn cake made from fresh ground corn, wrapped in corn husks. Can be sweet or savory.",
       "image": "images/humitas.jpg",
@@ -171,7 +171,7 @@
     {
       "id": 8,
       "name": "Quimbolitos",
-      "category": "Snack",
+      "category": "Dessert",
       "region": "Highlands",
       "description": "Soft, sweet steamed cakes made with corn flour and wrapped in achira leaves.",
       "image": "images/quimbolitos.jpg",
@@ -504,7 +504,7 @@
 {
   "id": 24,
   "name": "Sal Prieta",
-  "category": "Side",
+  "category": "Main Dish",
   "region": "Manabí",
   "description": "A traditional dry mix made from toasted corn flour, peanuts, and spices.",
   "image": "images/sal-prieta.jpg",
